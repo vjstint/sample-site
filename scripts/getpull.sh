@@ -1,4 +1,4 @@
 #!/bin/bash 
 #  apache config .
 cd /var/www/html
-chown apache:apache -R ./
+sudo chown www:www -R ./
